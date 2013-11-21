@@ -1,0 +1,62 @@
+.dtp_tbl{
+    background:#ccc;
+    border:none;
+    position:fixed;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+    z-index: 999;
+}
+.dtp_dcell{
+    width:20px;
+    height:20px;
+    background:#84C225;
+    font-size:14px;
+    font-family:Arial;
+    color:#ffffff;
+    text-align:center;
+    line-height:18px;
+    text-decoration:none;
+    border:1px solid #ccc;
+}
+
+.dtp_cell{
+    width:20px;
+    height:20px;
+    background:#ffffff;
+    font-size:10px;
+    font-family:Arial;
+    color:#333333;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer;
+    border:1px solid #84C225;
+}
+
+.dtp_cell:hover{
+    background:#FEB;
+    color:#000;
+}
+
+.dtp_today{
+    background:#FEB;
+    color:#FF9900;
+}
+.dtp_weekend{
+    background:#FF8040;
+    color:#ff0000;
+}
+
+.dtp_selected{
+    color:#ffffff;
+    background:#84C225;
+}
+
+.dtp_dcontroller{
+    font-size: 15px;
+    color: #747474;
+    font-weight: bold;
+}

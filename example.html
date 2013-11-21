@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="datepicker.js"></script>
+<link rel="stylesheet" href="datepicker.css" type="text/css" media="screen" />
+<style type="text/css">
+.s_string{
+	position:relative;
+	float:left;
+	width:100%;
+}
+.s_lwb{
+	position:relative;
+	float:left;
+}
+.s_pointer{
+	cursor:pointer;
+}
+.s_hidden{
+	display:none;
+}
+</style>
+<script>
+$(document).ready(function(){
+		$('#j_inp').callendarise({apply:$('#j_inp2')});
+	})
+</script>
+</head>
+<body>
+	<div style="width:100px; height:20px; border:red solid 1px;" id="j_inp">31-10-2013</div>
+	<div style="width:100px; height:20px; border:red solid 1px;" id="j_inp2">ololo</div>
+</body>
+</html>
